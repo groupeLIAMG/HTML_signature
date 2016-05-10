@@ -1,0 +1,43 @@
+<td class="footer" bgcolor="#f5f5f5">
+  <!-- @todo gulp-inline-css can't use width in percentages -->
+  <table class="rbcc footer__main" width="100%">
+    <tr>
+      <!-- @todo gulp-inline-css doesn't parse align -->
+      <td class="footer__main__signature" align="left">
+        <span style="font-size:12px"><!-- @echo signature_fr --></span><br />
+        <span style="font-size:12px"><!-- @echo signature_en --></span><br />
+        <br />
+      </td>
+    </tr>
+
+      <tr>
+      <td class="footer__main__signature" align="left">
+        <strong><!-- @echo name --></strong> | <!-- @echo title --><br />
+        <a style="font-size:12px;font-weight:400" href="mailto:<!-- @echo contactMail -->" target="_blank"><span><!-- @echo contactMail --></span></a>
+      </td>
+    </tr>
+    <!-- <tr>
+      <td width="100%">
+      <hr class="gray-hr"/></td>
+    </tr> -->
+    <tr>
+      <!-- @todo gulp-inline-css can't use width in percentages, doesn't parse align -->
+      <table class="rbcc footer__main__col1" width="100%" align="left">
+        <td class="footer__main__col1__td" align="left">
+          <br />
+              <!-- @echo linkedin --> &nbsp;&nbsp; <!-- @echo github  --> &nbsp;&nbsp; <!-- @echo twitter -->
+        </td>
+      </table>
+
+      <table class="rbcc footer__main__col2" width="30%" align="right">
+        <!-- @todo gulp-inline-css doesn't parse align -->
+        <td class="footer__main__col2__td" align="right">
+          <br />
+          <a href="<!-- @echo website -->">
+            <img src="<!-- @echo logoUrl -->" alt="<!-- @echo logoAlt -->" class="footer__main__col2__td__img"/>
+          </a>
+        </td>
+      </table>
+    </tr>
+  </table>
+</td>
