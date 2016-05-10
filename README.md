@@ -1,23 +1,23 @@
-# HTML courriel signature
-Responsive canevas pour les signatures courriel. <br/>
+# Signature HTML pour les courriels
+Responsive canevas pour les signatures html des courriels. <br/>
 
-Inspiré de [ce repositoire github](https://github.com/fadeit/responsive-html-email-signature).
+Adapté de [ce repositoire github](https://github.com/fadeit/responsive-html-email-signature).
 
 ## Exemples
 
-![desktop](https://raw.githubusercontent.com/lperozzi/HTML_sign/master/src/signature/assets/example_desktop.png)
+![desktop](https://raw.githubusercontent.com/groupeLIAMG/HTML_signature/master/src/signature/assets/example_desktop.png)
 
-<img src="https://raw.githubusercontent.com/lperozzi/HTML_sign/master/src/signature/assets/example_mobile.png" alt="alt text" width="250" height="whatever">
+<img src="https://raw.githubusercontent.com/groupeLIAMG/HTML_signature/master/src/signature/assets/example_mobile.png" alt="alt text" width="250" height="whatever">
 
 ## Pourquoi?
 - [x] transforme (`<link>`) CSS en 'inline styles'
 - [x] intègre les images locales (`img[src]`) dans le canevas (base64).*
 - [x] minifies le canevas
-- [x] automatise les changements faits dans les fichiers HTML/CSS et [conf.js](https://raw.githubusercontent.com/lperozzi/HTML_sign/master/src/signature/conf.js)
+- [x] automatise les changements faits dans les fichiers HTML/CSS et conf.js
 
 ## Comment ça fonctionne
 
-Cloner ce repositoire et exécuter la commande (necessite [node.js](https://nodejs.org/en/) ) au niveau du [gulpfile.js](https://raw.githubusercontent.com/lperozzi/HTML_sign/master/gulpfile.js)
+Cloner ce repositoire, faire les changements nécessaires dans le ficher [conf.js](https://raw.githubusercontent.com/groupeLIAMG/HTML_signature/master/src/signature/conf.js) et exécuter la commande suivante au niveau du [gulpfile.js](https://raw.githubusercontent.com/groupeLIAMG/HTML_signature/master/gulpfile.js) (necessite [node.js](https://nodejs.org/en/) d'installé)
 ```
 $ npm install
 $ gulp
